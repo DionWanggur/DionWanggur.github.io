@@ -9,97 +9,224 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <style>
         html {
             scroll-behavior: smooth;
-            }
-        body{
-            background-image: url("../image/bg.jpg");
+        }
+
+        body {
+            background-image: url("image/bg.jpg");
             background-size: cover;
         }
 
+        nav {
+            background-image: url("image/800px_COLOURBOX3387433.jpg");
+        }
+
+        .card,
+        .card-header {
+            background-color: rgba(245, 245, 245, 0.1);
+            border: none;
+            opacity: 1;
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border-top: 1px solid #ddd;
+            border-radius: 0;
+            color: black;
+        }
     </style>
     <title>Curicculum Vitae of Dionisius Wanggur</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary text-light">
-        
-        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-          <div class="navbar-nav text-center">
-            <a class="nav-link" href="#profil">Profil Singkat</a>
-            <a class="nav-link" href="#biodata">Biodata</a>
-            <a class="nav-link" href="#motto">Motto</a>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-dark  text-light mb-2">
+        <a class="navbar-brand" href="#main">Curicculum Vitae</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center">
+                <a class="nav-link" href="#profil">Profil Singkat</a>
+                <a class="nav-link" href="#biodata">Biodata</a>
+                <a class="nav-link" href="#motto">Motto</a>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-    <div class="container py-2">
-        <div class="jumbotron text-center">
-            <h1 class="display-4">Dionisius Salvavictori Wanggur</h1>
-            <img src="../image/IMG_4904.JPG" alt="" class="img-thumbnail rounded-circle"
-                style="width: 20%; height: 20%;">
-            <hr class="my-4">
-            <p>
-                Mahasiswa Universitas Katolik Parahyangan, Bandung.
-            </p>
+    <div class="container py-4" id="main">
+        <div class="container text-right">
+            <div class="row" >
+                <div class="col-4 px-2 rounded">
+                    <img src="image/800px_COLOURBOX3387433.jpg" class="w-100 h-100">
+                </div>
+                <div class="col-8 text-center">
+                    <h3>Hai!, Saya</h3>
+                    <h1 class="">Dionisius Salvavictori Wanggur</h1>
+                    <hr>
+                    <h5>
+                        Mahasiswa Universitas Katolik Parahyangan, Bandung.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+
         </div>
     </div>
 
 
     <div class="container py-2 ">
-        <div class="row py-2" id="profil">
+        <div class="row">
             <div class="col">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h5 class="card-title">Profile Singkat</h5>
-                      </div>
-                    <div class="card-body py-4">
-                        <p class="card-text">
-                            Mahasiswa aktif Universitas Katolik Parahyangan angkatan 2017 yang menempuh jurusan
-                            Teknik Informatika. 
-                        </p>
-                        
+                <div class="row py-2" id="profil">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header text-center ">
+                                <h5 class="card-title">Profil Singkat</h5>
+                            </div>
+                            <div class="card-body py-4">
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <h5 class="card-subtitle pb-4">Tentang Saya</h5>
+                                        <p class="card-text">
+                                            Mahasiswa aktif Universitas Katolik Parahyangan angkatan 2017 yang menempuh
+                                            jurusan
+                                            Teknik Informatika.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="row mb-4">
+                                    <div class="col">
+                                        <h5 class="card-subtitle pb-4">Yang Saya Lakukan</h5>
+                                    </div>
+                                </div>
+                                <div class="row p-2 text-center">
+                                    <div class="col border border-dark m-2 rounded">
+                                        <i class="bi bi-cast text-primary w-50"></i>
+                                        <p><strong> Web Development </strong></p>
+                                        <p>
+                                            Membangun dan mengembangkan aplikasi berbasis web.
+                                        </p>
+                                    </div>
+                                    <div class="col border border-dark m-2 rounded">
+                                        <i class="bi bi-code-slash text-primary"></i>
+                                        <p><strong> Programing </strong></p>
+                                        <p>
+                                            Membuat berbagai macam jenis program.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row p-2 text-center">
+                                    <div class="col border border-dark m-2 rounded">
+                                        <i class="bi bi-phone text-primary"></i>
+                                        <p><strong> Mobile Apps </strong></p>
+                                        <p>
+                                            Membuat aplikasi berbasis Mobile.
+                                        </p>
+                                    </div>
+                                    <div class="col border border-dark m-2 rounded">
+                                        <i class="bi bi-pencil-square text-primary"></i>
+                                        <p><strong> Design </strong></p>
+                                        <p>
+                                            Merancang suatu aplikasi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-2" id="biodata">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h5 class="card-title">Biodata</h5>
+                            </div>
+                            <div class="card-body py-4">
+                                <table class="table table-borderless">
+                                    <tbody>
+                                        <tr>
+                                            <th>Nama</th>
+                                            <td>Dionisius Salvavictori Wanggur</td>
+                                        </tr>
+                                        <tr>
+                                            <th>TTL</th>
+                                            <td>Flores, 29 Februari 1996</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Umur</th>
+                                            <td>18 Tahun</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Pengalaman</th>
+                                            <td>Kurang dari 1 Tahun</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row py-2" id="motto">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h5 class="card-title">Motto</h5>
+                            </div>
+                            <div class="card-body py-4">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">
+                                        Live A Life You Will Remember.
+                                    </p>
+                                    <footer class="blockquote-footer"><cite title="Source Title">Avicii</cite></footer>
+                                </blockquote>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row py-2" id="biodata">
             <div class="col">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h5 class="card-title">Biodata</h5>
-                      </div>
-                    <div class="card-body py-4">
-                        <p class="card-text">
-                            Dionisius lahir pada tanggal 29 Februari 1996 di Flores.
-                            
-                        </p>
-                        
+                <div class="row py-2">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header text-center">
+                                <h5 class="card-title">Kemampuan</h5>
+                            </div>
+                            <div class="card-body py-4">
+                                <h5 class="card-subtitle mb-2">Kemampuan programing</h5>
+                                <ul class="list-group ">
+                                    <li class="list-group-item ">PHP</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Java</li>
+                                    <li class="list-group-item">Python</li>
+                                    <li class="list-group-item">Html</li>
+                                    <li class="list-group-item">CSS</li>
+                                </ul>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="row py-2" id="motto">
-            <div class="col">
-                <div class="card">
-                    <div class="card-header text-center">
-                        <h5 class="card-title">Motto</h5>
-                      </div>
-                    <div class="card-body py-4">
-                        <blockquote class="blockquote">
-                            <p class="mb-0">
-                                Live A Life You Will Remember.
-                            </p>
-                            <footer class="blockquote-footer"><cite title="Source Title">Avicii</cite></footer>
-                          </blockquote>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
     </div>
 
