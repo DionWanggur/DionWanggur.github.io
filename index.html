@@ -15,13 +15,17 @@
             scroll-behavior: smooth;
         }
 
-        body {
-            background-image: url("image/bg.jpg");
-            background-size: cover;
-        }
-
         nav {
             background-image: url("image/800px_COLOURBOX3387433.jpg");
+        }
+        #main{
+            background-image: url("image/bg.jpg");
+            background-size: cover;
+            height: 100%;
+        }
+        .jumbotron{
+            background-color: rgba(245, 245, 245, 0.1);
+            opacity: 1;
         }
 
         .card,
@@ -57,25 +61,19 @@
         </div>
     </nav>
 
-    <div class="container py-4" id="main">
-        <div class="container text-right">
-            <div class="row" >
-                <div class="col-4 px-2 rounded">
-                    <img src="image/800px_COLOURBOX3387433.jpg" class="w-100 h-100">
+    <div class="container py-4 rounded mb-2" id="main">
+        <div class="jumbotron ">
+            <div class="row text-left">
+                <div class="col-4 ">
+                    <img src="image/Sampul.png" alt="..." class="img-thumbnail rounded">
                 </div>
-                <div class="col-8 text-center">
+                <div class="col-8 text-dark">
                     <h3>Hai!, Saya</h3>
                     <h1 class="">Dionisius Salvavictori Wanggur</h1>
                     <hr>
                     <h5>
                         Mahasiswa Universitas Katolik Parahyangan, Bandung.
                     </h5>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <hr>
                 </div>
             </div>
 
@@ -201,14 +199,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col border-left border-dark">
                 <div class="row py-2">
                     <div class="col">
-                        <div class="card">
-                            <div class="card-header text-center">
+                        <div class="">
+                            <div class=" text-center">
                                 <h5 class="card-title">Kemampuan</h5>
                             </div>
-                            <div class="card-body py-4">
+                            <div class=" py-4">
                                 <h5 class="card-subtitle mb-2">Kemampuan programing</h5>
                                 <ul class="list-group ">
                                     <li class="list-group-item ">PHP</li>
@@ -223,7 +221,50 @@
                         </div>
                     </div>
                 </div>
-
+                
+                <div class="row py-2">
+                    <div class="col">
+                        <div class="">
+                            <div class="text-center pb-4">
+                                <h5 class="">Kontak</h5>
+                            </div>
+                            <div class="">
+                                <div class="row text-center p-2">
+                                    <div class="col border border-dark rounded p-2 m-2">
+                                        <i class="bi bi-envelope"></i>
+                                        <p><strong> Email</strong></p>
+                                        <p>
+                                            Ngotot77@gmail.com
+                                        </p>
+                                    </div>
+                                    <div class="col border border-dark rounded p-2 m-2">
+                                        <i class="bi bi-phone"></i>
+                                        <p><strong> No. HP</strong></p>
+                                        <p>
+                                            0812345678901
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row text-center p-2">
+                                    <div class="col border border-dark rounded p-2 m-2">
+                                        <i class="bi bi-facebook"></i>
+                                        <p><strong> facebook</strong></p>
+                                        <p>
+                                            https://www.facebook.com/
+                                        </p>
+                                    </div>
+                                    <div class="col border border-dark rounded p-2 m-2">
+                                        <i class="bi bi-instagram"></i>
+                                        <p><strong> instagram</strong></p>
+                                        <p>
+                                            https://www.instagram.com/
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
