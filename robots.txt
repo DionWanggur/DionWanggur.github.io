@@ -1,1 +1,3 @@
 User-Agent: *
+
+sitemap: https://dionwanggur.github.io/sitemap.xml
